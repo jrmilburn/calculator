@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.calculator {
+    width: 720px;
+    display: inline-grid;
+    background-color: aliceblue;
+    padding: 10px;
+    grid-template-columns: auto auto auto auto;
+    border: 1px solid black;
+
+}
+
+.grid-item{
+    margin: 5px;
+}
+
+.grid-item button{
+    font-size: 24px;
+    background-color: azure;
+    color: #1d1d1d;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.grid-item button:hover{
+    background-color: cyan;
+}
+
+.display {
+    width: 720px;
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: left;
+    font-size: 40px;
+    border: 1px solid black;
+}
