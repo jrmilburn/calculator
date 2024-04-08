@@ -31,6 +31,7 @@
 
 .display {
     width: 720px;
+    height: 72px;
     background-color: aliceblue;
     padding: 10px;
     text-align: left;
